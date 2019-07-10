@@ -4,6 +4,8 @@ function plainadmin($args) {
 
     $args[0] .= <<<HTML
     <style>
+    /* Using a quick hack to get a higher priority */
+
     body #adminPanel,
     body .subTitle {
         font-family: "Lato", sans-serif;
@@ -15,7 +17,7 @@ function plainadmin($args) {
         font-size: 1.2em;
     }
 
-    body div.editText {
+    #adminPanel div.editText {
         display: block;
         width: 100%;
         min-height: 34px;
