@@ -1,5 +1,7 @@
 <?php
 
+global $Wcms;
+
 function plainadmin($args) {
 
     $args[0] .= <<<HTML
@@ -86,6 +88,6 @@ HTML;
     return $args;
 };
 
-wCMS::addListener('css', 'plainadmin');
+$Wcms->addListener('css', 'plainadmin');
 
 ?>
