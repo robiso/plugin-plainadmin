@@ -1,7 +1,7 @@
 # plugin-plainadmin
 
 This plugin adds some styling to the admin area of wondercms.
-This is mostly my personal prefrence, hosted on github for ease of installation.
+This is mostly my personal preference, hosted on github for ease of installation.
 
 Things that change:
 - Adds a small header to the settings panel
