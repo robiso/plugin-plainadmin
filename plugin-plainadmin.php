@@ -1,7 +1,10 @@
 <?php
+global $Wcms;
 
 function plainadmin($args) {
-
+    global $Wcms;
+    if(!$wcms->loggedIn) return $args;
+    
     $args[0] .= <<<HTML
     <style>
     /* Using a quick hack to get a higher priority */
@@ -86,6 +89,6 @@ HTML;
     return $args;
 };
 
-wCMS::addListener('css', 'plainadmin');
+$Wcms->addListener('css', 'plainadmin');
 
 ?>
