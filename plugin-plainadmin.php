@@ -3,7 +3,7 @@ global $Wcms;
 
 function plainadmin($args) {
     global $Wcms;
-    if(!$wcms->loggedIn) return $args;
+    if(!$Wcms->loggedIn) return $args;
     
     $args[0] .= <<<HTML
     <style>
