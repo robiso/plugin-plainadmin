@@ -3,7 +3,7 @@
     "plugins": {
         "plugin-plainadmin": {
             "name": "Plain Admin",
-            "repo": "https://github.com/robiso/plugin-plainadmin/tree/master",
+            "repo": "https://github.com/robiso/plugin-plainadmin",
             "zip": "https://github.com/robiso/plugin-plainadmin/archive/refs/heads/master.zip",
             "summary": "Nicer admin area",
             "version": "3.0.9",
