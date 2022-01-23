@@ -6,7 +6,7 @@
             "repo": "https://github.com/robiso/plugin-plainadmin/tree/master",
             "zip": "https://github.com/robiso/plugin-plainadmin/archive/refs/heads/master.zip",
             "summary": "Nicer admin area",
-            "version": "3.0.8",
+            "version": "3.0.9",
             "image": "https://raw.githubusercontent.com/robiso/plugin-plainadmin/master/preview.jpg"
         }
     }
